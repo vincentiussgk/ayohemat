@@ -5,6 +5,7 @@
  * @format
  */
 
+import InputField from './src/components/InputField';
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
@@ -72,6 +73,7 @@ function App(): React.JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <InputField />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
